@@ -4,8 +4,7 @@ import { calcTO } from '../utils';
 import Counter from './Counter';
 import { useState } from 'react';
 import Card from './Card';
-import { getOverflowOptions } from 'antd/es/_util/placements';
-import { Overlay } from 'antd/es/popconfirm/PurePanel';
+
 
 export default function InputSection() {
   const [dataArr, setDataArr] = useState([]);
@@ -109,6 +108,8 @@ export default function InputSection() {
         {dataArr.map((item, i) => {
           return (
             <Card
+              firstDiameter={item.firstDiameter}
+              secondDiameter={item.secondDiameter}
               originalRimThickness={item.originalRimThickness}
               rimThickness={item.rimThickness}
               allowance={item.allowance}

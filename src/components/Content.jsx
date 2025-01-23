@@ -6,7 +6,7 @@ const contentStyle = {
   textAlign: 'center',
   height: '100%',
   overflow: 'auto',
-  backgroundColor: '#fff',
+  backgroundColor: '#F8F8F8',
 };
 
 

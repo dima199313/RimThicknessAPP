@@ -21,6 +21,9 @@ export const calcTO = function (firstDiameter, secondDiameter, rimThickness,) {
 
 
   return {
+    firstDiameter,
+    secondDiameter,
+    rimThickness,
     originalRimThickness,
     rimThickness,
     allowance
