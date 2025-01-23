@@ -54,6 +54,7 @@ export default function InputSection() {
           ]}
         >
           <Input
+            maxLength={3}
             placeholder="Начальный диаметр"
             type="number"
             style={{ height: 30, fontSize: 20 }}
@@ -69,6 +70,7 @@ export default function InputSection() {
           ]}
         >
           <Input
+            maxLength={3}
             placeholder="Конечный диаметр"
             type="number"
             style={{ height: 30, fontSize: 20 }}
@@ -84,6 +86,7 @@ export default function InputSection() {
           ]}
         >
           <Input
+            maxLength={2}
             placeholder="Толщина обода"
             type="number"
             style={{ height: 30, fontSize: 20 }}
